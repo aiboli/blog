@@ -1,2 +1,3 @@
-# blog
-this is A blog
+# Strapi application
+
+A quick description of your strapi application
