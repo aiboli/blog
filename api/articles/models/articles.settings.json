@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Articles",
+  "info": {
+    "name": "Articles",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "unique": false,
+      "required": true
+    },
+    "chineseContent": {
+      "type": "richtext"
+    },
+    "englishContent": {
+      "type": "richtext"
+    }
+  }
+}
