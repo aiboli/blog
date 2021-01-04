@@ -3,8 +3,8 @@ module.exports = {
       {
         name: 'blog',
         cwd: '/srv/strapi/blog',
-        script: 'npm',
-        args: 'start',
+        script: 'sudo yarn start',
+        args: '',
         env: {
         },
       },
